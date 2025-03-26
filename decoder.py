@@ -1,19 +1,9 @@
-# -*- coding: utf-8 -*-
-# Current time is Wednesday, March 26, 2025 at 3:30 AM GMT.
-# Location: Upminster, England, United Kingdom.
-
 import os
 import argparse
 import glob
-import re
 import collections
 import datetime
 import sys
-
-try:
-    import pytz
-except ImportError:
-    pytz = None
 
 # --- Color Class for Output ---
 class Colors:
